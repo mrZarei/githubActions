@@ -3,7 +3,7 @@
 First-Class Team
 
 ## Team members
-# Farid Hedayati & Shohre Shahinzadeh
+# Farid Hedayati & Shohreh Shahinzadeh
 
 ## Work Diary
 
