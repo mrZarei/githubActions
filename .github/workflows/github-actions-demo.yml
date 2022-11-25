@@ -35,6 +35,9 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Build coverage report
+      run: |
+        coverage report tests/test_db.py
     - name: Pytest coverage comment
       uses: MishaKav/pytest-coverage-comment@main
       with: 
