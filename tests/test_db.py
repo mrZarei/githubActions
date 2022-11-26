@@ -25,5 +25,3 @@ class TestApplication(unittest.TestCase):
 
     def test_register(self):
         self.assertTrue(auth.register)
-    def test_failed(args):
-        self.assertTrue(False)
