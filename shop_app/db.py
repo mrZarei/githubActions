@@ -18,7 +18,7 @@ def get_db_config():
 
 
 def get_db():
-    """get_db will return a new database connection or reuse the existing one within the request context"""
+    """get_db will return a new database connections or reuse the existing one within the request context"""
     # pylint: disable=assigning-non-slot
     if 'database' not in g:
         g.database = mysql.connector.connect(**get_db_config())
